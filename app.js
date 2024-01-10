@@ -29,7 +29,9 @@ app.get('/', (req,res)=>{
 
 // catch 404 and forward to error handler
 
-
+app.listen(4000,()=>{
+  console.log('server')
+})
 // error handler
 
 module.exports = app;
